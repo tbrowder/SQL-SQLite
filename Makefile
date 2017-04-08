@@ -1,5 +1,5 @@
 PERL6     := perl6
-LIBPATH   := lib
+LIBPATH   := ${PERL6LIB},lib
 
 # set below to 1 for no effect, 1 for debugging messages
 DEBUG := SQL_SQLITE_DEBUG=0
