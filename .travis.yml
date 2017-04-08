@@ -1,0 +1,9 @@
+sudo: false
+language: perl6
+perl6:
+    - latest
+
+install:
+    - rakudobrew build-zef
+    # the following command avoids double-testing of the target module:
+    - zef install --depsonly .

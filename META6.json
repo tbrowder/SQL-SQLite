@@ -1,0 +1,28 @@
+{
+    "perl"        : "6",
+    "name"        : "SQL::SQLite",
+    "version"     : "0.1.0",
+    "description" : "Provides functions for SQL",
+    "authors"     : [ "github:tbrowder" ],
+    "license"     : "Artistic 2.0",
+    "source-url"  : "https://github.com/tbrowder/SQL-SQLite-Perl6/archive/v0.1.0.zip",
+    "support"     : {
+        "bugtracker" : "https://github.com/tbrowder/SQL-SQLite-Perl6/issues",
+        "source"     : "https://github.com/tbrowder/SQL-SQLite-Perl6/tree/v0.1.0"
+    },
+    "provides"    : {
+        "SQL::SQLite" : "lib/SQL/SQLite.pm6"
+    },
+    "test-depends"     : [
+	"Test::META",
+        "File::Temp"
+    ],
+    "depends" : [
+	"DBIish"
+    ],
+    "resources" : [
+    ],
+    "tags" : [
+	"sql", "SQLite"
+    ]
+}
