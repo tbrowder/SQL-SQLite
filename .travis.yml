@@ -6,4 +6,4 @@ perl6:
 install:
     - rakudobrew build-zef
     # the following command avoids double-testing of the target module:
-    - zef install --depsonly .
+    - zef install --deps-only .
