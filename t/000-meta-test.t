@@ -1,11 +1,12 @@
 use v6;
 use Test;
 
+use Test::META;
+
 constant AUTHOR = ?%*ENV<TEST_AUTHOR>; 
 
 if AUTHOR { 
-    require Test::META <&meta-ok>;
-    meta-ok;
+    meta-ok :relaxed-name;
     done-testing;
 }
 else {
